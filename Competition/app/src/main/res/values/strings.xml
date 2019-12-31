@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">건축물음표</string>
+    <string name="choose1">건물 안전점검 결과</string>
+    <string name="choose2">추가 콘텐츠 개발 시 사용</string>
+    <string name="what_title"><u>건축물음표</u>란?</string>
+    <string name="what_content">해당 건물의 가스, 전기, 승강기 안전 이력을 조회하여\n 행정 및 업무 효율화를 추구함.</string>
+    <string name="select_title">안전점검 결과 조회</string>
+    <string name="grade"><u>생애관리등급</u> : </string>
+
+    <!-- GAS -->
+    <string name="GAS_FCLTY_NM"><u>시설 명</u></string>
+    <string name="GAS_ADDR"><u>주소</u></string>
+    <string name="GAS_LAST_INSPCT_DAY"><u>최종 검사일</u></string>
+    <string name="GAS_USE_YN"><u>사용 여부</u></string>
+    <!-- GAS END -->
+
+    <!-- ELEC -->
+    <string name="ELEC_LAST_CHK_DAY"><u>최종 검사일</u></string>
+    <string name="ELEC_USE_YN"><u>사용 여부</u></string>
+    <string name="ELEC_RSLT_CNTT"><u>결과 내용</u></string>
+    <!-- ELEC END -->
+
+    <!-- LIFT -->
+    <string name="LIFT_ELVT_STATE"><u>승강기 상태</u></string>
+    <string name="LIFT_LAST_INSPCT_DAY"><u>최종 검사일</u></string>
+    <string name="LIFT_LAST_INSPCT_KND"><u>최종 검사 종류</u></string>
+    <string name="LIFT_LAST_INSPCT_RSLT"><u>최종 검사 결과</u></string>
+    <!-- LIFT END -->
+</resources>

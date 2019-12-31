@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#1A000000</color>
+    <!--
+    투명도
+    100% — FF
+    90% — E6
+    80% — CC
+    70% — B3
+    60% — 99
+    50% — 80
+    40% — 66
+    30% — 4D
+    20% — 33
+    10% — 1A
+    0% — 00
+    -->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="textColorPrimary">@color/white</color>
+    <color name="textColorSecondary">@color/materialGrey300</color>
+</resources>
