@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mImageVIew = (ImageView) findViewById(R.id.titleimg);
-        mImageVIew.setImageResource(R.drawable.greenmapo);
+        mImageVIew.setImageResource(R.drawable.start);
 
         //Rotation(nBefore - 10);
         final ConstraintLayout CL = (ConstraintLayout) findViewById(R.id.constraintLayout);

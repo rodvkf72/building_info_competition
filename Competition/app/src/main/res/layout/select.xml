@@ -3,12 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backimg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Select">
 
     <TextView
         android:id="@+id/select_title"
+        android:textColor="@color/black"
+        android:fontFamily="@font/yang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/select_title"
@@ -23,8 +26,10 @@
 
     <ListView
         android:id="@+id/gu"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/yang"
         android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:clickable="true"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,8 +43,10 @@
 
     <ListView
         android:id="@+id/dong"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/yang"
         android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:clickable="true"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,8 +59,10 @@
 
     <ListView
         android:id="@+id/building"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/yang"
         android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +75,7 @@
         android:id="@+id/map"
         android:layout_width="350dp"
         android:layout_height="450dp"
+        android:background="@drawable/round_corner"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

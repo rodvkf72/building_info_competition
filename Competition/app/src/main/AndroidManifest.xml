@@ -28,6 +28,14 @@
             android:screenOrientation="portrait" />
         <activity android:name=".Choose"
             android:screenOrientation="portrait" />
+        <activity android:name=".Insert"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Find"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Buildingcontents"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Faq"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">건축물음표</string>
-    <string name="choose1">건물 안전점검 결과</string>
-    <string name="choose2">추가 콘텐츠 개발 시 사용</string>
+    <string name="app_name"><b>건축물음표</b></string>
+    <string name="choose1">건물 안전점검 결과 조회</string>
+    <string name="choose2">건물명 데이터 삽입</string>
     <string name="what_title"><u>건축물음표</u>란?</string>
-    <string name="what_content">해당 건물의 가스, 전기, 승강기 안전 이력을 조회하여\n 행정 및 업무 효율화를 추구함.</string>
+    <string name="what_content1">모바일로 건물의 정보 검색과 가스, 전기, 승강기 등 이력조회 및</string>
+    <string name="what_content2">행정업무를 위한 데이터 삽입 기능으로 행정 및 업무 효율화를 추구함.</string>
     <string name="select_title">안전점검 결과 조회</string>
+    <string name="find_title">건물 정보 조회</string>
     <string name="grade"><u>생애관리등급</u> : </string>
 
     <!-- GAS -->
@@ -26,4 +28,18 @@
     <string name="LIFT_LAST_INSPCT_KND"><u>최종 검사 종류</u></string>
     <string name="LIFT_LAST_INSPCT_RSLT"><u>최종 검사 결과</u></string>
     <!-- LIFT END -->
+
+    <!-- BUILDING CONTENTS -->
+    <string name="find_pk"><u>건축물 PK</u></string>
+    <string name="find_struct"><u>건물 구조</u></string>
+    <string name="find_purps"><u>용도</u></string>
+    <string name="find_height"><u>높이</u></string>
+    <string name="find_ground"><u>지상 층 수</u></string>
+    <string name="find_uground"><u>지하 층 수</u></string>
+    <!-- BUILDING CONTENTS END -->
+
+    <!-- FAQ -->
+    <string name="this_app1">이 어플리케이션은 공모전 참가용으로서 비상업적입니다.</string>
+    <string name="this_app2">또한 참고한 파일 및 데이터베이스는 공모전 종료 시 파기 예정입니다.</string>
+    <!-- FAQ END -->
 </resources>

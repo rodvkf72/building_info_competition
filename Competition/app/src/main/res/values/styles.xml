@@ -29,6 +29,8 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
+        <!-- color high light -->
+        <item name="colorControlHighlight">#fd4381</item>
     </style>
 
     <style name="AppTheme.Fullscreen">
@@ -46,5 +48,4 @@
         <item name="colorControlNormal">@color/textColorPrimary</item>
         <item name="colorControlActivated">@color/textColorPrimary</item>
     </style>
-
 </resources>

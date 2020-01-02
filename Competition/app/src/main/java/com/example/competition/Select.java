@@ -79,9 +79,9 @@ public class Select extends AppCompatActivity {
         GU_MENU= new ArrayList<String>(Arrays.asList("마포구"));
         DONG_MENU = new ArrayList<String>(Arrays.asList("공덕동", "도화동", "마포동", "신공덕동", "염리동", "용강동"));
 
-        gu_adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, GU_MENU);
-        dong_adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, DONG_MENU);
-        building_adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, BUILDING_MENU);
+        gu_adapter = new ArrayAdapter(this, R.layout.simpleitem, GU_MENU);
+        dong_adapter = new ArrayAdapter(this, R.layout.simpleitem, DONG_MENU);
+        building_adapter = new ArrayAdapter(this, R.layout.simpleitem, BUILDING_MENU);
 
         gu_listview = (ListView) findViewById(R.id.gu);
         dong_listview = (ListView) findViewById(R.id.dong);
@@ -148,7 +148,7 @@ public class Select extends AppCompatActivity {
             Log.e("POST",param);
             try {
                 // 서버연결
-                URL url = new URL("http://192.168.35.199/buildingcheck.php");
+                URL url = new URL("http://192.168.0.100/buildingcheck.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
                 conn.setRequestMethod("POST");
@@ -221,7 +221,7 @@ public class Select extends AppCompatActivity {
             Log.e("POST",param);
             try {
                 // 서버연결
-                URL url = new URL("http://192.168.35.199/building_select.php");
+                URL url = new URL("http://192.168.0.100/building_select.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
                 conn.setRequestMethod("POST");

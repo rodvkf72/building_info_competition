@@ -5,10 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background_yellow">
+    android:background="@drawable/round_corner">
 
     <TextView
         android:id="@+id/elec_textView1"
+        android:fontFamily="@font/yang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -22,6 +23,7 @@
 
     <TextView
         android:id="@+id/elec_textView2"
+        android:fontFamily="@font/yang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -34,6 +36,7 @@
 
     <TextView
         android:id="@+id/elec_textView3"
+        android:fontFamily="@font/yang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -48,6 +51,8 @@
 
     <TextView
         android:id="@+id/elec_text1"
+        android:fontFamily="@font/yang"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ELEC_LAST_CHK_DAY"
@@ -60,6 +65,8 @@
 
     <TextView
         android:id="@+id/elec_text2"
+        android:fontFamily="@font/yang"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ELEC_RSLT_CNTT"
@@ -72,6 +79,8 @@
 
     <TextView
         android:id="@+id/elec_text3"
+        android:fontFamily="@font/yang"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/GAS_USE_YN"

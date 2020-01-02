@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,6 +65,9 @@ public class Contents extends AppCompatActivity implements View.OnClickListener{
         Button button3 = (Button) findViewById(R.id.button3);
         button3.setOnClickListener(this);
 
+        ImageView iv = (ImageView) findViewById(R.id.contents_home);
+        iv.setImageResource(R.mipmap.home);
+
         fr1 = new Gas();
         fr2 = new Electric();
         fr3 = new Lift();
@@ -71,6 +75,15 @@ public class Contents extends AppCompatActivity implements View.OnClickListener{
         bundle = new Bundle();
 
         setFrag(0);
+
+        iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Contents.this, Choose.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.topin_activity, R.anim.bottomout_activity);
+            }
+        });
     }
     @Override
     public void onClick(View view){
@@ -123,7 +136,7 @@ public class Contents extends AppCompatActivity implements View.OnClickListener{
             Log.e("POST", param);
             try {
                 // 서버연결
-                URL url = new URL("http://192.168.35.199/building_grade.php");
+                URL url = new URL("http://192.168.0.100/building_grade.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
                 conn.setRequestMethod("POST");

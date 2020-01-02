@@ -63,7 +63,7 @@ public class Lift extends Fragment {
             Log.e("POST",param);
             try {
                 // 서버연결
-                URL url = new URL("http://192.168.35.199/building_elvt_chk.php");
+                URL url = new URL("http://192.168.0.100/building_elvt_chk.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
                 conn.setRequestMethod("POST");
